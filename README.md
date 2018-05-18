@@ -148,7 +148,7 @@ You need to add a PostCSS configuration file (`postcss.config.js`) if you want t
 
 ## Current status
 
-I think this should be considered experimental and I really would love to accept some PR's to improve the project. 🤘
+I think this should be considered experimental and I will try to improve it as much as I can. I really would love to accept some PR's to improve the project. 🤘
 
 
 ## License
