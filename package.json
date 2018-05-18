@@ -1,6 +1,6 @@
 {
 	"name": "lit-loader",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "LitElement Single File Component loader for Webpack",
 	"license": "MIT",
 	"repository": "PolymerX/lit-loader",
