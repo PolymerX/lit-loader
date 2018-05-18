@@ -1,0 +1,73 @@
+{
+	"name": "lit-loader",
+	"version": "0.0.0",
+	"description": "LitElement Single File Component loader for Webpack",
+	"license": "MIT",
+	"repository": "PolymerX/lit-loader",
+	"bugs": {
+		"url": "https://github.com/PolymerX/lit-loader/issues",
+		"email": "info@godev.space"
+	},
+	"homepage": "https://github.com/PolymerX/lit-loader",
+	"author": {
+		"name": "LasaleFamine <Alessio Occhipinti>",
+		"email": "info@godev.space",
+		"url": "godev.space"
+	},
+	"main": "src/index.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"release": "git pull && standard-version",
+		"test": "xo && nyc ava test/*.test.js",
+		"test:travis": "yarn test && nyc report --reporter=text-lcov > coverage.lcov && codecov"
+	},
+	"files": [
+		"src"
+	],
+	"keywords": [
+		"lit-loader",
+		"LitElement",
+		"lit-element-loader",
+		"lit-element-postcss",
+		"lit-element-babel",
+		"lit-element-webpack",
+		"polymer-lit"
+	],
+	"dependencies": {
+		"jscodeshift": "0.5.0",
+		"loader-utils": "1.1.0",
+		"parse5": "4.0.0",
+		"postcss": "6.0.22",
+		"postcss-load-config": "1.2.0"
+	},
+	"devDependencies": {
+		"ava": "next",
+		"codecov": "3.0.1",
+		"nyc": "11.7.3",
+		"standard-version": "4.3.0",
+		"xo": "0.21.0"
+	},
+	"peerDependencies": {
+		"webpack": "^4"
+	},
+	"xo": {
+		"rules": {
+			"max-len": [
+				"error",
+				{
+					"code": 120,
+					"ignoreUrls": true
+				}
+			],
+			"capitalized-comments": "off"
+		}
+	},
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	}
+}
