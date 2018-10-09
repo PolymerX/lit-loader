@@ -25,4 +25,4 @@ module.exports = text => {
 	Serializer.escapeString = coreEscape;
 
 	return parsed;
-}
+};
