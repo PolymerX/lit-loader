@@ -1,7 +1,7 @@
 # lit-loader
 [![Build Status](https://travis-ci.org/PolymerX/lit-loader.svg?branch=master)](https://travis-ci.org/PolymerX/lit-loader) [![codecov](https://codecov.io/gh/PolymerX/lit-loader/badge.svg?branch=master)](https://codecov.io/gh/PolymerX/lit-loader?branch=master)
 
-[![npm](https://img.shields.io/npm/v/lit-loader.svg?style=for-the-badge)](https://github.com/PolymerX/lit-loader)[![Project Status](https://img.shields.io/badge/status-experimental-red.svg?longCache=true&style=for-the-badge)](https://github.com/PolymerX/lit-loader)
+[![npm](https://img.shields.io/npm/v/lit-loader.svg?style=for-the-badge)](https://github.com/PolymerX/lit-loader)[![Project Status](https://img.shields.io/badge/status-experimental-red.svg?longCache=true&style=for-the-badge)](https://github.com/PolymerX/lit-loader) [![Greenkeeper badge](https://badges.greenkeeper.io/PolymerX/lit-loader.svg)](https://greenkeeper.io/)
 
 > Single File Component LitElement loader for Webpack
 
