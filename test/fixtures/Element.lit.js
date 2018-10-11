@@ -41,6 +41,7 @@ span {
 	TEMPLATE: `
 <div>
 	<p>
+		${ () => '' }
 		Clicked: <span>\${props.clicks}</span> times.
 		Value is <span>\${props.value}</span>.
 		<button on-click="\${() => this._onIncrement()}" title="Add 1">+</button>
