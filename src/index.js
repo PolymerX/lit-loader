@@ -14,7 +14,7 @@ module.exports = async function (source) {
 		.then(({plugins, options}) =>
 			postcss(plugins).process(style.value, {...options, from: this.resourcePath}))
 		.then(res => res.css)
-		.catch(err => cb(err)) : style.value;
+		.catch(error => cb(error)) : style.value;
 
 	const templateString = `<style>${css}</style>${template.value}`;
 	const enriched = enrich(script.value, templateString);

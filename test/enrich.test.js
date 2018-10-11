@@ -20,8 +20,8 @@ ${SCRIPT}
 	const {style, template, script} = parser(content);
 	const enriched = m(script.value, `<style>${style.value}</style>${template.value}`);
 
-	t.true(enriched.includes(`import {LitElement, html} from '@polymer/lit-element'`), 'Includes import LitElement');
+	t.true(enriched.includes('import {LitElement, html} from \'@polymer/lit-element\''), 'Includes import LitElement');
 	t.true(enriched.includes('CounterElement extends LitElement {'), 'Includes extends LitElement');
 	t.true(enriched.includes('_render(props)'), 'Includes render function');
-	t.true(enriched.includes(`return html\``), 'Includes return html function');
+	t.true(enriched.includes('return html`'), 'Includes return html function');
 });
