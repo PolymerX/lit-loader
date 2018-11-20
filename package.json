@@ -39,7 +39,7 @@
     "jscodeshift": "0.5.1",
     "loader-utils": "1.1.0",
     "parse5": "5.1.0",
-    "postcss": "7.0.5",
+    "postcss": "7.0.6",
     "postcss-load-config": "2.0.0"
   },
   "devDependencies": {
