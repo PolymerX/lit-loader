@@ -36,7 +36,7 @@
     "polymer-lit"
   ],
   "dependencies": {
-    "jscodeshift": "0.5.1",
+    "jscodeshift": "0.6.0",
     "loader-utils": "1.1.0",
     "parse5": "5.1.0",
     "postcss": "7.0.6",
