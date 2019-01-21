@@ -61,10 +61,10 @@ module: {
 <template>
   <div>
     <p>
-      Clicked: <span>${props.clicks}</span> times.
-      Value is <span>${props.value}</span>.
-      <button on-click="${() => this._onIncrement()}" title="Add 1">+</button>
-      <button on-click="${() => this._onDecrement()}" title="Minus 1">-</button>
+      Clicked: <span>${this.clicks}</span> times.
+      Value is <span>${this.value}</span>.
+      <button @click="${this._onIncrement}" title="Add 1">+</button>
+      <button @click="${this._onDecrement}" title="Minus 1">-</button>
     </p>
   </div>
 </template>
@@ -103,7 +103,7 @@ module: {
 
 `index.js`
 ```js
-import {LitElement, html} from '@polymer/lit-element';
+import {LitElement, html} from 'lit-element';
 
 ...
 
