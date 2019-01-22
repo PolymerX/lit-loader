@@ -1,14 +1,14 @@
 const j = require('jscodeshift');
 
 const renderTemplate = templateString => `
-	_render(props) {
+	render() {
 		return html\`${templateString}\`
 	}
 `.replace(/\t/gi, '');
 
 const addLitReferences = source => j(source)
 	.find(j.ExportDefaultDeclaration)
-	.insertBefore('import {LitElement, html} from \'@polymer/lit-element\'')
+	.insertBefore('import {LitElement, html} from \'lit-element\'')
 	.find(j.Identifier)
 	.at(0)
 	.forEach(item => j(item).replaceWith(`${item.node.name} extends LitElement`))
