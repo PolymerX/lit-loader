@@ -4510,10 +4510,10 @@ postcss-load-config@2.0.0:
     cosmiconfig "^4.0.0"
     import-cwd "^2.0.0"
 
-postcss@7.0.13:
-  version "7.0.13"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.13.tgz#42bf716413e8f1c786ab71dc6e722b3671b16708"
-  integrity sha512-h8SY6kQTd1wISHWjz+E6cswdhMuyBZRb16pSTv3W4zYZ3/YbyWeJdNUeOXB5IdZqE1U76OUEjjjqsC3z2f3hVg==
+postcss@7.0.15:
+  version "7.0.15"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.15.tgz#7f62bfff3437a8d358850792e1daee828e67e959"
+  integrity sha512-+avadY713SyQf0m5np7byFzAFZyhPhXyxwp8OVmdd5mKOxm0VzM2AJkKIgBro7gGVk4kYlCDvBVrSqhU5m8E+w==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
