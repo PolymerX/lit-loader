@@ -1,6 +1,17 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.1.1](https://github.com/PolymerX/lit-loader/compare/v0.1.0...v0.1.1) (2019-09-13)
+
+
+### Bug Fixes
+
+* **package:** update dependencies ([8640ddf](https://github.com/PolymerX/lit-loader/commit/8640ddf))
+* **package:** update dependencies ([#51](https://github.com/PolymerX/lit-loader/issues/51)) ([6a04177](https://github.com/PolymerX/lit-loader/commit/6a04177))
+* **package:** update jscodeshift to version 0.6.4 ([166179e](https://github.com/PolymerX/lit-loader/commit/166179e))
+* **package:** update postcss to version 7.0.16 ([43feba1](https://github.com/PolymerX/lit-loader/commit/43feba1)), closes [#41](https://github.com/PolymerX/lit-loader/issues/41)
+* **package:** update postcss to version 7.0.17 ([dd2cb1e](https://github.com/PolymerX/lit-loader/commit/dd2cb1e))
 
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/PolymerX/lit-loader/compare/v0.0.3...v0.1.0) (2019-01-22)
