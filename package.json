@@ -39,14 +39,14 @@
     "jscodeshift": "0.6.4",
     "loader-utils": "1.2.3",
     "parse5": "5.1.0",
-    "postcss": "7.0.17",
-    "postcss-load-config": "2.0.0"
+    "postcss": "7.0.18",
+    "postcss-load-config": "2.1.0"
   },
   "devDependencies": {
-    "ava": "1.4.1",
-    "codecov": "3.3.0",
+    "ava": "2.3.0",
+    "codecov": "3.5.0",
     "nyc": "14.1.1",
-    "standard-version": "5.0.2",
+    "standard-version": "7.0.0",
     "xo": "0.24.0"
   },
   "peerDependencies": {
