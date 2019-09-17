@@ -43,7 +43,7 @@
     "postcss-load-config": "2.1.0"
   },
   "devDependencies": {
-    "ava": "2.3.0",
+    "ava": "2.4.0",
     "codecov": "3.5.0",
     "nyc": "14.1.1",
     "standard-version": "7.0.0",
