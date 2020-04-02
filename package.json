@@ -47,7 +47,7 @@
     "codecov": "3.6.1",
     "nyc": "15.0.0",
     "standard-version": "7.0.1",
-    "xo": "0.24.0"
+    "xo": "0.28.2"
   },
   "peerDependencies": {
     "webpack": "^4"
